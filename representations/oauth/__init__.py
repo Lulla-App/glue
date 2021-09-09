@@ -5,3 +5,4 @@ from .microsoft import (
     MicrosoftScopeURI,
     MicrosoftScopeMap,
 )
+from .google import GoogleOAuthToken, GoogleScope, GoogleScopeURI, GoogleScopeMap
