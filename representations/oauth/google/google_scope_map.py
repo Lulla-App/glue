@@ -30,7 +30,9 @@ class GoogleScopeMap(Mapping):
             and not all(isinstance(uri, GoogleScopeURI) for uri in uris)
         ):
             raise TypeError("parameter uris is not of the proper type")
-        if uris != None and all(uri not in scope.uris for uri in uris): # I'm not sure about this one
+        if uris != None and all(
+            uri not in scope.uris for uri in uris
+        ):  # I'm not sure about this one
             raise ValueError(
                 f"{scope.value} is not usable by one or more of the uris you're trying to use it with"
             )
