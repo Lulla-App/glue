@@ -1,7 +1,11 @@
 from .representations import (
     TokenType,
-    MicrosoftScope,
-    MicrosoftScopeURI,
+    GoogleOAuthToken,
+    GoogleScope,
+    GoogleScopeMap,
+    GoogleScopeURI,
     MicrosoftOAuthToken,
+    MicrosoftScope,
     MicrosoftScopeMap,
+    MicrosoftScopeURI,
 )
